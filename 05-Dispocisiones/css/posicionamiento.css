@@ -1,0 +1,46 @@
+div{
+    border:1px solid gray;
+    padding: 5px;
+    margin: 5px;
+    background-color: chartreuse;
+}
+
+/* 
+relacion de la posicion original 
+ */
+.relative{
+    position: relative;
+    left: 80px;
+    margin-left: 20px;
+    background-color: rgb(243, 112, 112);
+}
+
+/* 
+se mantiene fijo 
+ */
+.fixed{
+    position: fixed;
+    bottom:20px;
+    left: 20px;
+    background-color: aqua;
+    z-index: 10;
+}
+/*posion absoluta*/
+.absolute{
+    position: absolute;
+    bottom: 30px;
+    right: 0px
+}
+.relative.contener{
+    height: 800px;
+    width: 300px;
+    background-color: rgb(126, 91, 255);
+}
+/*position sticker al hacer scroll se posiciona*/
+.sticky{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    color: rgb(255, 255, 0);
+    background-color:blue
+}

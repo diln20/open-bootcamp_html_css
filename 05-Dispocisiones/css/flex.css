@@ -1,0 +1,32 @@
+.flex{
+    background-color: yellow;
+
+    display: flex ;
+    flex-direction: column;
+    height: 300px;
+    /* justify content ubica los elementos */
+    justify-content:space-around ;
+    /*redimenciona los elementos cambio de 
+    tamaño (wrap)*/
+   /*flex-wrap:wrap;*/
+    align-items:flex-end;
+}
+
+.contenido-1{
+    background-color: rgb(255, 255, 255);
+    
+    width: 100px;
+    border: 1px solid blue;
+}
+.contenido-2{
+    background-color: white;
+    
+    width: 100px;
+    border: 1px solid blue;
+}
+.contenido-3{
+    background-color: rgb(96, 93, 255);
+    
+    width: 100px;
+    border: 1px solid blue;
+}

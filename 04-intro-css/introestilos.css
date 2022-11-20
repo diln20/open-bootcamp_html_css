@@ -1,0 +1,52 @@
+.colores{
+    color:orangered;
+}
+.color-hexadecimal{
+    color:#805E73;
+    font-size: 20px;
+}
+.color-rgb{
+    color:rgb(0, 58, 248);
+    font-size: 20px;
+}
+.color-rgba{
+    color:rgba(10,10,10,0.2);
+    font-size: 20px;
+}
+
+/*Fondo*/
+.fondo{
+    /*background-color:cornflowerblue;*/
+    background-image:url("https://static.vecteezy.com/system/resources/previews/002/196/579/original/modern-abstract-geometric-background-free-vector.jpg");
+    background-position:left bottom;
+}
+
+
+.fondo-interno{
+    /*background-color:cornflowerblue;*/
+    background-image:url("fondo/fondo.jpeg");
+    background-position:left bottom;
+}
+
+/*Tamaños*/
+.ancho{
+    background-color: antiquewhite;
+    width: 100px; 
+}
+
+.alto{
+    background-color: blue;
+    height: 200px;
+}
+
+.tarjeta{
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(0, 25, 248);
+    border-width: 2px;
+    /*border-top: none;*/
+    padding: 10px 20px;
+    /*padding: 10px 20px 30px 40px;*/
+    /*margin: 10px 20px 30px 40px;*/
+    margin: 10px 20px;
+}

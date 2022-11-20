@@ -1,0 +1,13 @@
+.contenedor p{
+    color:green;
+}
+
+
+body section.main .contenedor p.agua{
+    color:rgb(39, 23, 255);
+}
+
+.contenedor #boton-contenedor{
+    background-color:yellow;
+}
+

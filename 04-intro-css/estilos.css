@@ -1,0 +1,36 @@
+h1{
+    color:red;
+}
+/*Estoy probando colores y fuentes*/
+p{
+    font-size:16pt;
+    color:blue;
+}
+
+/*selectores de id solo afecta al parrafo*/
+p#primera-noticia{
+    color:green;
+    font-size: 12pt;
+}
+
+/*selectores de clase afecta a todos los id */
+#segunda-noticia{
+    /*color:darkmagenta;*/
+    font-size: 16pt;
+}
+
+.encabezado{
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+
+/*todos los elementos */
+*.warning{
+    color:red;
+
+}
+
+/* con coma afectando clases*/
+.fecha, .autor,.ubicacion ,h1 ,#segunda-noticia{
+    text-decoration: underline;
+}

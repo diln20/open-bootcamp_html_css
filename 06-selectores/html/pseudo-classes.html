@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pseudo-clases</title>
+    </head>
+    <style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .hover{
+        width: 300px;
+        height: 100px;
+        background-color: bisque;
+    }
+    /* se activa cuando pasan por encima*/
+    .hover:hover{
+        background-color: burlywood;
+    }
+    .listado{
+        padding: 15px;
+        background-color: aquamarine;
+    }
+    .listado p:first-child {
+        color: rgb(255, 255, 255);
+    }
+    a:link{
+        color: deeppink;
+    }
+    a:visited{
+        color:crimson;
+    }
+    a:hover{
+        color: rgb(0, 255, 42);
+    }
+    a:active{
+        color: darkslateblue;
+    }
+ 
+</style>
+    <body>
+        <div class="hover">
+            <p>
+                Id do amet officia nisi est dolore aliquip elit officia ex
+                commodo excepteur. Culpa consectetur reprehenderit qui deserunt
+                adipisicing anim enim aliquip reprehenderit laborum quis
+                laborum. 
+            </p>
+        </div>
+         <div class="listado">
+           <p>parrafo 1</p>
+           <p>parrafo 2</p>
+           <p>parrafo 3</p>
+        </div>
+        <div class="enlaces">
+            <a href="https://www.google.com" target="_blank">Google</a>
+            <a href="https://www.youtube.com" target="_blank">Youtube</a>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        </div>
+
+    </body>
+</html>
