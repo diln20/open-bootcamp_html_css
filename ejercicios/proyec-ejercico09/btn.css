@@ -1,0 +1,20 @@
+.btn-modern{
+    position: relative;
+    top: 50vh;
+    left: 50vw;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 2px solid transparent;
+    height: 50px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    transition: all 0.4s ease;
+}
+
+.btn-modern:hover{
+    transform: translateY(-5px);
+    background-color: cyan;
+    color:white;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
