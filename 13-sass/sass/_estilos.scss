@@ -1,0 +1,43 @@
+
+@use "mixin";
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    background-color: rgb(32, 255, 255);
+    min-height: 100vh;
+    padding: 0.5rem;
+}
+
+h1 {
+    margin: 0;
+    @include mixin.def(#ffffff);
+}
+
+p {
+    color: text-color;
+    @include mixin.def();
+}
+
+.listado{
+   width: 10rem;
+   background-color: aquamarine;
+   padding: 0.5rem;
+    ul{
+      margin: 0.5rem;
+        li{
+            list-style: none;
+            &:hover{
+                color: white;
+            }
+            &:active{
+                color: blue;
+            }
+        }
+    }
+}
+

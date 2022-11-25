@@ -1,0 +1,34 @@
+
+// :root{
+//     --color-principal:red;
+//     --ancho-principal:200px;
+// }
+// .titulo{
+//     color:var(--color-principal);
+// }
+
+//componentes
+@use "sass/componentes";
+//name spaces 
+//$color->_componentes.$color
+
+//mixin
+@use "sass/_mixin";
+//$color->$color
+
+//Estilos
+@use "sass/estilos";
+
+//otros
+@use "sass/builtin";
+//Paginas
+
+//página principal
+
+//pagina de contacto
+
+//pagina de productos
+
+//pagina de servicios
+
+
